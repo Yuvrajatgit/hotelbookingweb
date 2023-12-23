@@ -1,0 +1,30 @@
+.f-container {
+    justify-content: space-between;
+    border-top: .5px solid rgba(0,0,0,0.148);
+}
+
+.f-left {
+    gap: 1rem;
+}
+
+.f-menu {
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: 500;
+}
+
+.f-container {
+    gap: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .f-container {
+        justify-content: center;
+    }
+    .f-left {
+        align-items: center;
+    }
+    .f-right {
+        align-items: center;
+    }
+}
