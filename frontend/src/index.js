@@ -13,7 +13,7 @@ root.render(
     domain='dev-t0cxvwbcff1dd26v.us.auth0.com'
     clientId='gyzzMyMkpZntUzDIKvmrMK6LecDSodvl'
     authorizationParams={{
-        redirect_uri: "http://localhost:3000"
+        redirect_uri: "https://hotelbookingweb-client.vercel.app"
     }}
     audience="http://localhost:8000"
     scope="opendid profile email">
